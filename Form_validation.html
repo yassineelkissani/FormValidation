@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="Form_valid.css">
+  </head>
+  <body>
+    <h2>Form<span>Validation</span></h2>
+    <div class="cont">
+      
+      <div class="form">
+    <fieldset>
+      <legend>FORM</legend>
+      <form id="Myformule">
+        <table>
+       <tr><td><label for="email">Email :</label></td>
+        <td><input type="text" id="email" name="email" required></td></tr> 
+        <tr><td></td><td><div id="email-error"></div></td></tr>
+       <tr> <td><label for="tele">Téléphone :</label></td>
+       <td> <input type="text" id="tele" name="tele" required></td></tr>
+       <tr><td></td><td> <div id="tel-error"></div></td></tr>
+        <tr><td><label for="desc">Description :</label></td>
+        <td><input type="text" id="desc" name="desc" required></td></tr>
+        <tr><td></td><td><div id="desc-error"></div></td></tr>
+        <tr><td><label for="tele">Date :</label></td>
+        <td><input type="date" id="date" name="date" required></td></tr>
+        <tr><td></td><td><div id="date-error"></div></td></tr><br>
+      <tr><td><button type="button" onclick="validateForm()" id="btn">Valider</button></td></tr>
+    </table>
+     
+    </form>
+  </fieldset>
+</div>
+  <div id="div_affiche">
+
+
+  </div>
+</div>
+    
+    <script src="form_validation.js">
+    
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-image: url(photo_back.jpg);
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cont{
+    display:flex;
+    justify-content: center;
+}
+fieldset{
+    top: 300px;
+    display: flex;
+    height: 380px;
+    width:500px ;
+    justify-content: center;
+}
+#btn{
+    background-color:beige;
+    border: 2px solid green;
+    color:black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+#email-error,#tel-error,#desc-error,#date-error{
+    color: darkred;
+}
+h2{
+  
+    
+}
+span{
+    color: green;
+}
